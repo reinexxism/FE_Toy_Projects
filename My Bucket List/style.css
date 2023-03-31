@@ -14,10 +14,11 @@
 }
 
 #navbar .logo {
-  margin-left: 50px;
+  margin-left: 130px;
   text-decoration: none;
   font-size: larger;
   color: black;
+  font-size: 25px;
 }
 
 #navbar .menubar {
@@ -35,7 +36,7 @@
 #side_bar {
   width: 25%;
   height: 731px;
-  background-color: rgb(117, 133, 117);
+  background-color: rgb(127, 145, 127);
   float: left;
 }
 
@@ -49,6 +50,7 @@
 }
 
 .side_bar_upper .dateOfToday {
+  color: rgb(74, 74, 74);
   position: absolute;
   left: 25%;
   top: 20%;
@@ -57,6 +59,7 @@
 }
 
 .side_bar_upper .dayOfToday {
+  color: rgb(74, 74, 74);
   position: absolute;
   left: 40%;
   top: 45%;
@@ -72,7 +75,7 @@
 .todoStateBtn .remain {
   margin-right: 15px;
   width: 90px;
-  height: 30px;
+  height: 40px;
   border: 1px solid rgb(197, 197, 197);
   background-color: white;
   cursor: pointer;
@@ -80,7 +83,7 @@
 
 .todoStateBtn .complete {
   width: 90px;
-  height: 30px;
+  height: 40px;
   border: 1px solid rgb(197, 197, 197);
   background-color: white;
   cursor: pointer;
@@ -101,6 +104,7 @@
   top: 10%;
   font-size: 20px;
   font-weight: bold;
+  color: rgb(74, 74, 74);
 }
 
 .side_bar_lower .todoInput {
@@ -121,8 +125,87 @@
 
 /* mainContent css part */
 #mainContent {
+  position: relative;
   width: 75%;
   height: 731px;
   background-color: rgb(225, 225, 225);
   float: left;
+}
+
+#mainContent .showIcons {
+  position: relative;
+  left: 80px;
+  top: 40px;
+  width: 85%;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+.showIcons .icon {
+  font-size: 14px;
+  background-color: white;
+  width: 80px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  border-radius: 20px;
+}
+
+.showIcons .All:hover {
+  background-color: rgb(195, 195, 195);
+}
+
+.showIcons .Health:hover {
+  background-color: rgb(223, 240, 223);
+}
+
+.showIcons .Study:hover {
+  background-color: rgb(199, 234, 199);
+}
+
+.showIcons .Travel:hover {
+  background-color: rgb(201, 215, 201);
+}
+
+.showIcons .Book:hover {
+  background-color: rgb(180, 201, 180);
+}
+
+.showIcons .Hobby:hover {
+  background-color: rgb(155, 190, 155);
+}
+
+.showIcons .Item:hover {
+  background-color: rgb(151, 190, 151);
+}
+
+.showIcons .Personal:hover {
+  background-color: rgb(128, 152, 128);
+}
+
+.showIcons span {
+  width: 80px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#mainContent .bucketInput {
+  position: absolute;
+  left: 21%;
+  top: 22%;
+  width: 600px;
+  height: 40px;
+}
+
+#mainContent .bucketOutput {
+  width: 850px;
+  height: 460px;
+  background-color: rgb(204, 204, 204);
+  position: absolute;
+  left: 10%;
+  top: 30%;
 }
