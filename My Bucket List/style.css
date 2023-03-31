@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   box-sizing: border-box;
 }
@@ -39,10 +39,90 @@ body {
   float: left;
 }
 
+#side_bar .side_bar_upper {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: white;
+  height: 200px;
+}
+
+.side_bar_upper .dateOfToday {
+  position: absolute;
+  left: 25%;
+  top: 20%;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.side_bar_upper .dayOfToday {
+  position: absolute;
+  left: 40%;
+  top: 45%;
+  font-size: 20px;
+}
+
+.side_bar_upper .todoStateBtn {
+  position: absolute;
+  left: 18%;
+  top: 70%;
+}
+
+.todoStateBtn .remain {
+  margin-right: 15px;
+  width: 90px;
+  height: 30px;
+  border: 1px solid rgb(197, 197, 197);
+  background-color: white;
+  cursor: pointer;
+}
+
+.todoStateBtn .complete {
+  width: 90px;
+  height: 30px;
+  border: 1px solid rgb(197, 197, 197);
+  background-color: white;
+  cursor: pointer;
+}
+
+#side_bar .side_bar_lower {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: white;
+  height: 450px;
+}
+
+.side_bar_lower p {
+  position: absolute;
+  left: 19%;
+  top: 10%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.side_bar_lower .todoInput {
+  position: absolute;
+  left: 15%;
+  top: 18%;
+  width: 210px;
+}
+
+.side_bar_lower .todoOutput {
+  position: absolute;
+  left: 10%;
+  top: 28%;
+  background-color: rgb(232, 232, 232);
+  width: 240px;
+  height: 300px;
+}
+
 /* mainContent css part */
 #mainContent {
   width: 75%;
   height: 731px;
-  background-color: rgb(196, 196, 196);
+  background-color: rgb(225, 225, 225);
   float: left;
 }
