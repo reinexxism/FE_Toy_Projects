@@ -13,7 +13,7 @@
     <header id="navbar">
       <a href="#" class="logo">My Bucket</a>
       <div class="menubar">
-        <input type="button" class="login" value="login" />
+        <input type="button" class="login" value="login    |" />
         <input type="button" class="signup" value="sign up" />
       </div>
     </header>
@@ -21,31 +21,50 @@
     <!-- sidebar pt(show date of today & today's to-do list) -->
     <section id="side_bar">
       <div class="side_bar_upper">
-        <div class="dateOfToday">03.20</div>
-        <div class="todoStateBtn">
+        <span class="dateOfToday">23.03.20</span>
+        <span class="dayOfToday">Sunday</span>
+        <span class="todoStateBtn">
           <input type="button" class="remain" value="remain" />
           <input type="button" class="complete" value="complete" />
-        </div>
+        </span>
       </div>
       <div class="side_bar_lower">
         <p>Make Your Daily Plan</p>
-        <input type="text" class="todoInput" placeholder="Do your best" />
+        <input type="text" class="todoInput" placeholder="Do your best!" />
+        <div class="todoOutput"></div>
       </div>
     </section>
 
     <!-- main content pt(bucket list of user) -->
     <section id="mainContent">
       <div class="showIcons">
-        <input type="button" class="All" value="All" />
-        <input type="button" class="Health" value="Health" />
-        <input type="button" class="Study" value="Study" />
-        <input type="button" class="Travel" value="Travel" />
-        <input type="button" class="Book" value="Book" />
-        <input type="button" class="Hobby" value="Hobby" />
-        <input type="button" class="Item" value="Item" />
-        <input type="button" class="Personal" value="Personal" />
+        <span>
+          <input type="button" class="icon All" value="All" />
+        </span>
+        <span>
+          <input type="button" class="icon Health" value="Health" />
+        </span>
+        <span>
+          <input type="button" class="icon Study" value="Study" />
+        </span>
+        <span>
+          <input type="button" class="icon Travel" value="Travel" />
+        </span>
+        <span>
+          <input type="button" class="icon Book" value="Book" />
+        </span>
+        <span>
+          <input type="button" class="icon Hobby" value="Hobby" />
+        </span>
+        <span>
+          <input type="button" class="icon Item" value="Item" />
+        </span>
+        <span>
+          <input type="button" class="icon Personal" value="Personal" />
+        </span>
       </div>
       <input type="text" class="bucketInput" placeholder="what is your goal?" />
+      <div class="bucketOutput"></div>
     </section>
   </body>
 </html>
