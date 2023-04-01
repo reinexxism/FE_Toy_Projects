@@ -30,6 +30,15 @@
   border: none;
   background-color: white;
   cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menubar .login:hover {
+  color: rgb(109, 149, 109);
+}
+
+.menubar .signup:hover {
+  color: rgb(100, 131, 100);
 }
 
 /* side bar css part */
@@ -72,8 +81,19 @@
   top: 70%;
 }
 
+.todoStateBtn input[type="button"] {
+  transition: background-color 0.5s ease;
+}
+
+.todoStateBtn .remain:hover,
+.todoStateBtn .complete:hover {
+  background-color: rgb(186, 206, 186);
+  border: none;
+}
+
 .side_bar_lower input[type="text"]:focus {
   outline-color: rgb(135, 142, 135);
+  border: none;
 }
 
 .todoStateBtn .remain {
