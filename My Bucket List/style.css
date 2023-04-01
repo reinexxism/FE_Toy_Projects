@@ -72,6 +72,10 @@
   top: 70%;
 }
 
+.side_bar_lower input[type="text"]:focus {
+  outline-color: rgb(135, 142, 135);
+}
+
 .todoStateBtn .remain {
   margin-right: 15px;
   width: 90px;
@@ -199,6 +203,10 @@
   top: 22%;
   width: 600px;
   height: 40px;
+}
+
+#mainContent input[type="text"]:focus {
+  outline-color: rgb(135, 142, 135);
 }
 
 #mainContent .bucketOutput {
