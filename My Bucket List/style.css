@@ -27,10 +27,24 @@
 
 .menubar .login,
 .menubar .signup {
-  border: none;
+  font-size: 14px;
+  color: rgb(57, 57, 57);
+  text-decoration: none;
   background-color: white;
   cursor: pointer;
   transition: color 0.3s ease;
+  margin-left: 10px;
+}
+
+.menubar .login:visited,
+.menubar .signup:visited {
+  font-size: 14px;
+  color: rgb(57, 57, 57);
+  text-decoration: none;
+  background-color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-left: 10px;
 }
 
 .menubar .login:hover {
