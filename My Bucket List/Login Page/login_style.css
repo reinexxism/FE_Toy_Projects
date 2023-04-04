@@ -1,3 +1,95 @@
-body {
-  background-color: #808f7c;
+* {
+  background-color: #818c7e;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.login_box {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  background-color: lightgray;
+  margin-top: 60px;
+  border-radius: 30px;
+}
+
+.login_box img {
+  position: absolute;
+  left: 200px;
+  top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.login_box .user_name_input {
+  position: absolute;
+  left: 35px;
+  top: 270px;
+  height: 40px;
+  width: 450px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  background-color: lightgray;
+  border: none;
+  transition: background-color 0.5s ease;
+}
+
+.login_box .user_name_input:focus {
+  outline: none;
+  background-color: rgb(170, 177, 170);
+}
+
+.login_box .user_password_input {
+  position: absolute;
+  left: 35px;
+  top: 330px;
+  height: 40px;
+  width: 450px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  background-color: lightgray;
+  border: none;
+  transition: background-color 0.5s ease;
+}
+
+.login_box .user_password_input:focus {
+  outline: none;
+  background-color: rgb(170, 177, 170);
+}
+
+.login_box .login_btn {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  top: 400px;
+  left: 130px;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  font-size: 15px;
+  color: rgb(49, 49, 49);
+}
+
+.login_box .delete_btn {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  top: 400px;
+  left: 310px;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  font-size: 15px;
+  color: rgb(49, 49, 49);
+}
+
+.register_box {
+  width: 600px;
+  height: 150px;
+  background-color: lightgray;
+  margin-top: 15px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 100px;
 }
