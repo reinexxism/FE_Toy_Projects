@@ -9,7 +9,7 @@
   width: 600px;
   height: 500px;
   background-color: lightgray;
-  margin-top: 60px;
+  margin-top: 80px;
   border-radius: 30px;
 }
 
@@ -69,6 +69,15 @@
   cursor: pointer;
   font-size: 15px;
   color: rgb(49, 49, 49);
+  background-color: lightgray;
+  transition: background-color 0.5s ease;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.login_box .login_btn:hover,
+.login_box .delete_btn:hover {
+  background-color: rgb(140, 155, 140);
 }
 
 .login_box .delete_btn {
@@ -82,14 +91,35 @@
   cursor: pointer;
   font-size: 15px;
   color: rgb(49, 49, 49);
+  background-color: lightgray;
+  transition: background-color 0.5s ease;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .register_box {
+  position: relative;
   width: 600px;
-  height: 150px;
+  height: 100px;
   background-color: lightgray;
   margin-top: 15px;
   border-radius: 30px;
   text-align: center;
   line-height: 100px;
+}
+
+.register_box .register_btn {
+  position: absolute;
+  top: 36px;
+  left: 250px;
+  cursor: pointer;
+  border: none;
+  font-size: 21px;
+  background-color: lightgray;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.register_box .register_btn:hover {
+  color: #667362;
 }
