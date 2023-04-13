@@ -1,3 +1,103 @@
 body {
-  background-color: #808f7c;
+  background-color: #72826f;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/forest1.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.signup_box {
+  margin: auto;
+  align-items: center;
+  width: 600px;
+  height: 700px;
+  display: flex;
+  overflow: auto;
+  flex-direction: column;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.2px);
+  -webkit-backdrop-filter: blur(5.2px);
+}
+
+.signup_box .user_avatar {
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: rgba(209, 209, 209, 0.555);
+  text-align: center;
+  line-height: 200px;
+}
+
+.signup_box .user_name_input,
+.signup_box .user_password_input,
+.signup_box .user_password_check,
+.signup_box .user_email_input {
+  height: 40px;
+  width: 450px;
+  margin-bottom: 25px;
+  transition: all 0.5s ease;
+  background-color: transparent;
+  color: rgb(208, 208, 208);
+  font-size: 14px;
+  border: 0;
+  border-bottom: 1px solid rgba(206, 206, 206, 0.793);
+}
+
+::placeholder {
+  color: rgba(205, 205, 205, 0.853);
+}
+
+.signup_box .user_name_input:focus,
+.signup_box .user_password_input:focus,
+.signup_box .user_password_check:focus,
+.signup_box .user_email_input:focus {
+  border-bottom: 0;
+  outline: none;
+  background-color: rgba(46, 55, 46, 0.7);
+}
+
+.btns {
+  width: 550px;
+  height: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btns .signup_btn,
+.btns .delete_btn {
+  height: 60px;
+  width: 250px;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.2px);
+  -webkit-backdrop-filter: blur(5.2px);
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.btns .signup_btn:hover,
+.btns .delete_btn:hover {
+  cursor: pointer;
+  background-color: rgb(55, 62, 55);
+  color: rgba(222, 222, 222, 0.695);
+}
+
+.signup_box .back_to_home {
+  text-decoration: none;
+  margin-bottom: 20px;
+  color: rgba(218, 217, 217, 0.82);
+}
+
+.signup_box .back_to_home:hover {
+  color: rgb(39, 46, 39);
 }
