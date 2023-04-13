@@ -1,0 +1,85 @@
+body {
+  background-image: url(../img/MainBackGround.png);
+  background-size: cover;
+  position: relative;
+}
+
+.list_container {
+  position: absolute;
+  left: 990px;
+  top: 215px;
+  width: 150px;
+  height: 100px;
+}
+
+.list_container .lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.lists .list {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.lists .list:hover {
+  cursor: pointer;
+}
+
+.lists .health:hover {
+  color: rgb(117, 137, 117);
+}
+
+.lists .study:hover {
+  color: rgb(101, 123, 101);
+}
+
+.lists .travel:hover {
+  color: rgb(84, 118, 84);
+}
+
+.lists .book:hover {
+  color: rgb(65, 103, 65);
+}
+
+.lists .hobby:hover {
+  color: rgb(73, 84, 73);
+}
+
+.lists .item:hover {
+  color: rgb(58, 79, 58);
+}
+
+.lists .personal:hover {
+  color: rgb(37, 67, 37);
+}
+
+.btns {
+  position: absolute;
+  left: 580px;
+  top: 510px;
+}
+
+.btns .startBtn,
+.btns .signupBtn {
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+}
+
+.btns .startBtn {
+  margin-right: 110px;
+}
+
+.btns .startBtn:hover {
+  color: rgb(105, 124, 105);
+}
+
+.btns .signupBtn:hover {
+  color: rgb(62, 89, 62);
+}
